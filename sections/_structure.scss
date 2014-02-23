@@ -1,0 +1,41 @@
+/*
+|--------------------------------------------------------------------------
+| Base
+|--------------------------------------------------------------------------
+*/
+*,
+*:before,
+*:after {
+  -webkit-backface-visibility: hidden; 
+  box-sizing: border-box;
+  
+  // TODO: Remove before production
+  transition: all 0.5s;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Container
+|--------------------------------------------------------------------------
+*/
+.container {
+  width: 95%;
+
+  margin: 0 auto;
+  padding: 0 $pad;
+  position: relative;
+
+  @include clearfix;
+
+  @include min( robin ) {
+    width: $robin - 2 * $padding;
+  }
+  
+  @include min( batman ) {
+    width: $batman - 2 * $padding;
+  }
+  
+  @include min( superman ) {
+    width: $superman - 2 * $padding;
+  }
+}

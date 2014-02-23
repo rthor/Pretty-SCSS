@@ -1,0 +1,27 @@
+/*
+|--------------------------------------------------------------------------
+| Typography
+|--------------------------------------------------------------------------
+*/
+body {
+	font-family: $baseFF;
+	font-size: $baseFZ;
+	line-height: $baseLH;
+  color: $textColor;
+  text-align: center;
+
+  -webkit-font-smoothing: antialiased;
+  -webkit-backface-visibility: hidden; 
+  
+  @include min(robin) { text-align: left; }
+}
+
+a {
+	color: $linkColor;
+	text-decoration: none;
+	transition: color .3s ease;
+	
+	&:hover {
+		color: $linkColorHover;
+	}
+}

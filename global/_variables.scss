@@ -1,0 +1,59 @@
+// Sizes
+// ===================================================================
+$robin: 650px;
+$batman: 960px;
+$superman: 1250px;
+$padding: 20px;
+
+// Grays
+// ===================================================================
+$black:                 #000;
+$grayDarker:            #222;
+$grayDark:              #666;
+$gray:                  #999;
+$grayLight:             #bbb;
+$grayLighter:           #eee;
+$white:                 #fff;
+
+// Accent colors
+// ===================================================================
+$blue:                  #4c81ed;
+$green:                 #46a546;
+$red:                   #9d261d;
+$yellow:                #ffc40d;
+$orange:                #d9a940;
+$brown:                 #593c0c;
+$pink:                  #c3325f;
+$purple:                #7a43b6;
+
+// Scaffolding
+// ===================================================================
+$bodyBackground:        $white;
+$textColor:             $grayDark;
+
+// Links
+// ===================================================================
+$linkColor:             $orange;
+$linkColorHover:        $brown;
+
+// Typography
+// ===================================================================
+$sansFF: 			  sans-serif;
+$serifFF: 			serif;
+
+$baseFF: 				$serifFF;
+$baseFZ:				14px;
+$baseLH:				24px;
+
+// Borders
+// ===================================================================
+$border: 1px solid rgba(255,255,255,0.1);
+
+// Shadows
+// ===================================================================
+$textShadowDark: rgba(0, 0, 0, 0.3) 0 1px,
+                rgba(0, 0, 0, 0.28) 0 3px,
+                rgba(0, 0, 0, 0.23) 0 5px,
+                rgba(0, 0, 0, 0.18) 0 7px,
+                rgba(0, 0, 0, 0.13) 0 9px,
+                rgba(0, 0, 0, 0.1) 0 11px;  
