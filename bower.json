@@ -1,0 +1,24 @@
+{
+  "name": "pretty-scss",
+  "version": "0.0.1",
+  "homepage": "https://github.com/rthor/Pretty-SCSS",
+  "author": {
+    "name": "Ragnar Þór Valgeirsson (rthor)",
+    "email": "ragnar.valgeirsson@gmail.com",
+    "url": "http://rthor.is"
+  },
+  "description": "SCSS base",
+  "keywords": [
+    "boilerplate",
+    "front-end",
+    "css",
+    "scss"
+  ],
+  "license": "MIT",
+  "ignore": [
+    ".gitignore"
+  ],
+  "dependencies": {
+    "normalize-scss": "~3.0.0"
+  }
+}
